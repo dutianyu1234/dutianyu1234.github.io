@@ -1,5 +1,77 @@
-#main-content {
-  font-size: 36px;
-  font-weight: bold;
-  padding: 16px;
+.container{
+  width:1000px;
+  height:600px;
+  background-color: hotpink;
+}
+
+.mainlogo, .navigation{
+  display: inline-block;
+}
+
+.nav_main{
+  float:left;
+  /*height: 100px;*/
+  background-color: black;
+}
+
+ul{
+  font-family: serif;
+  font-size: large;
+
+  background-color: blue;
+
+  /*去掉黑点,删除边距和填充*/
+  list-style-type: none;  
+  padding: 0px;
+  margin: 0px;
+  text-align: left;/*文字左侧对齐*/
+
+  margin-top: 50px;
+  
+}
+li{
+  float:left;
+}
+li a, .dropbtn{
+  text-decoration: none;
+  color: white;
+  padding: 0px 16px;
+}
+li a:hover, .dropdown:hover{
+  background-color: rgb(202, 58, 39);
+}
+
+.dropdown{
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position:absolute;
+  background-color:#f9f9f9;
+  min-width:160px;
+  box-shadow:0px 8px 16px 0px
+    rgba(0,0,0,0.2);
+}
+
+.dropdown-content a
+{
+  color:black;
+  padding:12px 16px;
+  text-decoration:none;
+  display:block;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content
+{
+  display:block;
+}
+
+.content{
+  background-color: green;
+  
+}
+.pic-nav{
+  margin-left: 20%;
 }
