@@ -1,7 +1,7 @@
 .container{
   width:1000px;
   height:600px;
-  background-color: hotpink;
+  /*background-color: hotpink;*/
 }
 
 .mainlogo, .navigation{
@@ -17,8 +17,6 @@
 ul{
   font-family: serif;
   font-size: large;
-
-  background-color: blue;
 
   /*去掉黑点,删除边距和填充*/
   list-style-type: none;  
@@ -70,7 +68,6 @@ li a:hover, .dropdown:hover{
 
 .content{
   background-color: green;
-  
 }
 .pic-nav{
   margin-left: 20%;
