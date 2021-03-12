@@ -67,8 +67,16 @@ li a:hover, .dropdown:hover{
 }
 
 .content{
-  background-color: green;
+  background-image: url("bg.png");
+  width: 1000px;
+  height: 500px;
 }
 .pic-nav{
   margin-left: 20%;
+}
+
+img.metapic{
+  border: 5px solid white;
+  margin: 5px solid red;
+  padding: 5px solid blue;
 }
