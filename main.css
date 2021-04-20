@@ -1,7 +1,6 @@
-.container{
-  width:1000px;
-  height:600px;
-  /*background-color: hotpink;*/
+.FrontPage{
+  background-image: url(bg.png);
+  background-color: blue;
 }
 
 .mainlogo, .navigation{
@@ -10,6 +9,7 @@
 
 .nav_main{
   float:left;
+  /*height: 100px;*/
   background-color: black;
 }
 

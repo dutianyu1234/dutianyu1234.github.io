@@ -11,8 +11,8 @@
   width:70%;
   /*超出图片容器部分隐藏
   overflow: hidden;
-  /*显示图片容器边框*/
-  border:1px solid red;
+  /*显示图片容器边框
+  border:1px solid red;*/
 }
 .title img{
   width: auto;
