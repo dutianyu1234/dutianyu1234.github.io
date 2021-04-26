@@ -82,42 +82,20 @@ li a:hover, .dropdown:hover{
 {
   display:block;
 }
-/*-------------------------------------------------------------------------------*/
 
-/*content的设置-------------------------------------------------------------------*/
-.pic0, .pic4, .pic8{
-  margin-left: 15%;
-}
-
-.pic0, .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7,.pic8, .pic9, .pic10, .pic11,
-.nav0, .nav1, .nav2, .nav3, .nav4, .nav5, .nav6, .nav7, .nav8{
+.leftClick, .rightClick{
+  width: 10%;
   display: inline-block;
-  width:10%;
 }
 
-.pic0 img, .pic1 img, .pic2 img, .pic3 img, .pic4 img, .pic5 img, 
-.pic6 img, .pic7 img, .pic8 img, .pic9 img, .pic10 img, .pic11 img,
-.nav0 img, .nav1 img, .nav2 img, .nav3 img, .nav4 img, .nav5 img, 
-.nav6 img, .nav7 img, .nav8 img{
+.center{
+  width:70%;
+  display: inline-block;
+}
+
+.leftClick img, .center img, .rightClick img{
   width: auto;
   height:auto;
- max-width:100%;
- max-height:100%;
+  max-width:100%;
+  max-height:100%;
 }
-
-.pic0 img, .pic1 img, .pic2 img, .pic3 img, .pic4 img, .pic5 img, 
-.pic6 img, .pic7 img, .pic8 img, .pic9 img, .pic10 img, .pic11 img{
-  border:1px solid black;
-}
-
-.pic0, .pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7,.pic8, .pic9, .pic10, .pic11{
-  position: relative;
-}
-.q{
-  position: absolute;
-  bottom: 0;
-  left: 25%;
-}
-
-/*-------------------------------------------------------------------------------*/
-
