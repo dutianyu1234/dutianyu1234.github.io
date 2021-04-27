@@ -1,14 +1,15 @@
 var picArray = new Array();
-picArray[0] = "1.png";
+/*picArray[0] = "1.png";
 picArray[1] = "2.png";
 picArray[2] = "3.png";
 picArray[3] = "4.png";
 picArray[4] = "5.png";
 picArray[5] = "6.png";
-picArray[6] = "7.png";
-picArray[7] = "8.png";
-picArray[8] = "9.png";
-picArray[9] = "blank.png";
+picArray[6] = "7.png";*/
+picArray[0] = "gif1.jpg";
+picArray[1] = "gif2.jpg";
+picArray[2] = "gif3.jpg";
+picArray[3] = "blank.png";
 
 function getTime(name){
   var nowDate = new Date();
@@ -40,15 +41,14 @@ document.onkeydown=function(event){
 function dd(){
   
   var num1 = Math.round(Math.random()*11);
-  var num2 = Math.round(Math.random()*8);//获取0-8的随机数
-
+  var num2 = Math.round(Math.random()*1);//获取0-1的随机数
   var str1 = "pic" + num1;
 
   ChangeImg(str1, num2)
 
   for (var i=0;i<12;i++){
     if (i==num1) continue;
-    ChangeImg("pic" + i,9);
+    ChangeImg("pic" + i,picArray.length-1);
   }
 }
 

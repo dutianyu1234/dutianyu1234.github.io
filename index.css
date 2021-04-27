@@ -1,6 +1,8 @@
 .header{
-  background-image: url('bg.png');
-  margin:0 auto;
+  background-image: url('pic/background1.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border:1px solid red;
 }
 .headcontent{
   padding-top: 10%;

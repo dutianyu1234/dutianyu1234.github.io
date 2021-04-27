@@ -1,0 +1,101 @@
+.header{
+  background-image: url('../pic/background1.jpg');
+  margin:0 auto;
+}
+.headcontent{
+  padding-top: 10%;
+}
+
+.title{
+  display: inline-block;
+  width:70%;
+  /*超出图片容器部分隐藏
+  overflow: hidden;
+  /*显示图片容器边框
+  border:1px solid red;*/
+}
+.title img{
+  width: auto;
+  height:auto;
+  max-width:100%;
+  max-height:100%;
+}
+
+/*导航栏设置-------------------------------------------------------------------------*/
+.navigation{
+  display: inline-block;
+  width: 29%;
+  background-color: black;
+}
+
+ul{
+  font-family: serif;
+  font-size: 12px;
+
+  /*去掉黑点,删除边距和填充*/
+  list-style-type: none;  
+  padding: 0px;
+  margin: 0px;
+  text-align: left;/*文字左侧对齐*/
+  margin-top: 0%;
+  
+}
+li{
+  float:left;
+  text-align: center;
+  width: 32%;
+  /*background-color: green;*/
+}
+li a, .dropbtn{
+  text-decoration: none;
+  color: white;
+  padding: 0 1%;
+}
+li a:hover, .dropdown:hover{
+  background-color: rgb(58, 36, 155);
+}
+
+.dropdown{
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position:absolute;
+  background-color:#f9f9f9;
+  min-width: 10%;
+  min-height: 5%;
+  box-shadow:0px 8px 16px 0px
+    rgba(0,0,0,0.2);
+}
+
+.dropdown-content a
+{
+  color:black;
+  padding:12px 16px;
+  text-decoration:none;
+  display:block;
+}
+
+.dropdown-content a:hover {background-color: red}
+
+.dropdown:hover .dropdown-content
+{
+  display:block;
+}
+
+.leftClick, .rightClick{
+  width: 10%;
+  display: inline-block;
+}
+
+.center{
+  width:70%;
+  display: inline-block;
+}
+
+.leftClick img, .center img, .rightClick img{
+  width: auto;
+  height:auto;
+  max-width:100%;
+  max-height:100%;
+}

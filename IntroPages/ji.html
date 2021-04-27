@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Github Page demo</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="PageSwitch.css" />
+    <script type="text/javascript" src="PageSwitch.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="headcontent">
+          <div class="title">
+            <img src="../xc2.png">
+          </div>
+          <div class="navigation">
+            <ul class="dty">
+              <li class="dropdown">
+                <a class="dropbtn">首页</a>
+                <div class="dropdown-content">
+                  <a>链接1</a>
+                  <a>链接2</a>
+                  <a>链接3</a>
+                </div>
+              </li>
+              <li class="dropdown">
+                <a class="dropbtn">项目介绍</a>
+                <div class="dropdown-content">
+                  <a>链接1</a>
+                  <a>链接2</a>
+                  <a>链接3</a>
+                </div>
+              </li> 
+              <li class="dropdown">
+                <a class="dropbtn">联系我们</a>
+                <div class="dropdown-content">
+                  <a>链接1</a>
+                  <a>链接2</a>
+                  <a>链接3</a>
+                </div>
+              </li>          
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="leftClick">
+            <button onclick="LeftClick('ji')" > <img src="../pic/click.png"></button>
+        </div>
+        <div class="center">
+            <img src="../pic/ji/ji (1).png">
+        </div>
+        <div class="rightClick">
+            <button onclick="RightClick('ji',19)" > <img src="../pic/click.png"></button>
+        </div>
+        <p class="page">nowPage</p>
+    </div>
+</body>
