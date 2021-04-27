@@ -1,6 +1,7 @@
 .header{
   background-image: url('../pic/background1.jpg');
-  margin:0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .headcontent{
   padding-top: 10%;
@@ -89,7 +90,7 @@ li a:hover, .dropdown:hover{
 }
 
 .center{
-  width:70%;
+  width:75%;
   display: inline-block;
 }
 
