@@ -16,11 +16,9 @@ function RightClick(name, maxNum){
 }
 
 function Menu(name, num){
-  if (name == "zhu"){
     var tmp = document.getElementsByClassName("center")[0].children[0];
     nowNum = num;
     tmp.src = "../pic/" + name + "/" + name + " (" + nowNum + ").png";
-  }
 }
 
 function showPage(){

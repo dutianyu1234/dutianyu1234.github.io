@@ -51,15 +51,31 @@ function dd(){
     ChangeImg("pic" + i,picArray.length-1);
   }
 }
-
-function fontsize(){
-  
-}
-
+//
 window.setInterval("dd()",3000);
 
 window.setInterval("fontsize()",3000);
+function show(e,name) 
+{
+  //鼠标只要移动,就会触发事件
+  var x = e.pageX;
+  var y = e.pageY;
+  var pic = document.getElementsByClassName(name)[0];
+  if (x < document.body.clientWidth*0.75){
+    pic.style.left = x + 10+'px';
+  }
+  else{
+    pic.style.left = x-document.body.clientWidth*0.15 +'px';
+  }
 
+  if (y < document.body.clientHeight*0.8){
+    pic.style.top = y + 10 +'px';
+  }
+  else{
+    pic.style.top = y-document.body.clientHeight*0.1 +'px';
+  }
+  document.getElementsByClassName("q")[0].innerHTML = y + ' ' + document.body.clientHeight;
+};
 /*windowAddMouseWheel();
 function windowAddMouseWheel() {
     var scrollFunc = function (e) {

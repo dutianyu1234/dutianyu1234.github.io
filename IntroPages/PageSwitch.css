@@ -86,10 +86,11 @@ li a:hover, .dropdown:hover{
 
 .menu{
   display: inline-block;
+  width:9%;
 }
 
 .leftClick, .rightClick{
-  width: 10%;
+  width: 5%;
   display: inline-block;
 }
 

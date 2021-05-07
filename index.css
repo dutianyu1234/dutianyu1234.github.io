@@ -85,27 +85,19 @@ li a:hover, .dropdown:hover{
   display:block;
 }
 
-.dropdown-content1{
+.zhu, .xing, .yang, .yu, .ji, .li, .shi, .lao,.jing{
   display: none;
   position:absolute;
   width:25%;
   background-color:#f9f9f9;
 }
 
-.nav0:hover .dropdown-content1, .nav1:hover .dropdown-content1,
-.nav3:hover .dropdown-content1,.nav4:hover .dropdown-content1,
-.nav6:hover .dropdown-content1,.nav7:hover .dropdown-content1
-{
-  display:block;
+.nav0:hover .zhu, .nav1:hover .xing, .nav2:hover .yang,
+.nav3:hover .yu, .nav4:hover .ji, .nav5:hover .li,
+.nav6:hover .shi, .nav7:hover .lao, .nav8:hover .jing{
+  position: absolute;
+  display: block;
 }
-.nav2:hover .dropdown-content1,.nav5:hover .dropdown-content1,
-.nav8:hover .dropdown-content1
-{
-  float:right;
-  right:11%;
-  display:block;
-}
-
 /*-------------------------------------------------------------------------------*/
 
 /*content的设置-------------------------------------------------------------------*/
@@ -144,7 +136,3 @@ li a:hover, .dropdown:hover{
 }
 
 /*-------------------------------------------------------------------------------*/
-
-.nav0 a:hover{
-  
-}
