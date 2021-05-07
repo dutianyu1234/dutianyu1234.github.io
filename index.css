@@ -79,10 +79,33 @@ li a:hover, .dropdown:hover{
 
 .dropdown-content a:hover {background-color: red}
 
+/*鼠标放在dropdown上时，dropdown-content的display属性变为块*/
 .dropdown:hover .dropdown-content
 {
   display:block;
 }
+
+.dropdown-content1{
+  display: none;
+  position:absolute;
+  width:25%;
+  background-color:#f9f9f9;
+}
+
+.nav0:hover .dropdown-content1, .nav1:hover .dropdown-content1,
+.nav3:hover .dropdown-content1,.nav4:hover .dropdown-content1,
+.nav6:hover .dropdown-content1,.nav7:hover .dropdown-content1
+{
+  display:block;
+}
+.nav2:hover .dropdown-content1,.nav5:hover .dropdown-content1,
+.nav8:hover .dropdown-content1
+{
+  float:right;
+  right:11%;
+  display:block;
+}
+
 /*-------------------------------------------------------------------------------*/
 
 /*content的设置-------------------------------------------------------------------*/
@@ -122,3 +145,6 @@ li a:hover, .dropdown:hover{
 
 /*-------------------------------------------------------------------------------*/
 
+.nav0 a:hover{
+  
+}
