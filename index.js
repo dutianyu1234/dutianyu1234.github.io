@@ -1,3 +1,9 @@
+if(navigator.platform.indexOf('Win')!=0){
+  window.location.href="index2.html";
+}
+alert(navigator.platform);
+document.getElementsByClassName("q")[0].innerHTML = navigator.platform;
+
 var picArray = new Array();
 /*picArray[0] = "1.png";
 picArray[1] = "2.png";
