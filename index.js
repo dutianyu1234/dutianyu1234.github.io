@@ -1,8 +1,3 @@
-if(navigator.platform.indexOf('Win')!=0){
-  window.location.href="index2.html";
-}
-alert(navigator.platform);
-
 var picArray = new Array();
 /*picArray[0] = "1.png";
 picArray[1] = "2.png";
