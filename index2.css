@@ -103,11 +103,12 @@ li a:hover, .dropdown:hover{
 /*content的设置-------------------------------------------------------------------*/
 .nav0, .nav1, .nav2, .nav3, .nav4, .nav5, .nav6, .nav7, .nav8{
   display: inline-block;
-  width:10%;
+  width:30%;
 }
 
 .nav0, .nav3, .nav6{
-  margin-left: 35%;
+  margin-left: 5%;
+  margin-top: 10%;
 }
 
 .nav0 img, .nav1 img, .nav2 img, .nav3 img, .nav4 img, .nav5 img, 
