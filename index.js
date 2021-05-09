@@ -41,7 +41,7 @@ document.onkeydown=function(event){
 function dd(){
   
   var num1 = Math.round(Math.random()*11);
-  var num2 = Math.round(Math.random()*1);//获取0-1的随机数
+  var num2 = Math.round(Math.random()*2);//获取0-1的随机数
   var str1 = "pic" + num1;
 
   ChangeImg(str1, num2)
