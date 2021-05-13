@@ -51,8 +51,7 @@ function preload() {
 
 
 window.onload=function(){
-//setInterval("showPage()",100);
-showPage();
+setInterval("showPage()",100);
 
 preload();
 }
