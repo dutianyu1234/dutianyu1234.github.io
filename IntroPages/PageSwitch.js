@@ -10,11 +10,9 @@ function preload() {
   strPage = strPage.split(".")[0];
 
     for (i = 0; i < 19; i++) {
-        var path = "../pic/" + strPage + "/" + strPage + "(" + (i+1) + ").png";
         images[i] = new Image();
-        images[i].src = path;
+        images[i].src = "../pic/" + strPage + "/" + strPage + "(" + (i+1) + ").png";
     }
-    alert(images[0].src);
 }
 preload();
 
