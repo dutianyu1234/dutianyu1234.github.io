@@ -1,22 +1,20 @@
 var picArray = new Array();
-/*picArray[0] = "1.png";
-picArray[1] = "2.png";
-picArray[2] = "3.png";
-picArray[3] = "4.png";
-picArray[4] = "5.png";
-picArray[5] = "6.png";
-picArray[6] = "7.png";*/
 picArray[0] = "gif1.jpg";
 picArray[1] = "gif2.jpg";
 picArray[2] = "gif3.jpg";
-picArray[3] = "blank.png";
+picArray[3] = "gif4.jpg";
+picArray[4] = "gif5.jpg";
+picArray[5] = "gif6.jpg";
+picArray[6] = "gif7.jpg";
+picArray[7] = "gif8.jpg";
+picArray[8] = "blank.png";
 
 function getTime(name){
   var nowDate = new Date();
   var hour = nowDate.getHours();
   var minutes = nowDate.getMinutes();
   var seconds = nowDate.getSeconds();
-  var str = "现在的时间" + hour + "时" + minutes + "分" + seconds + "秒";
+  var str = "现在的时间: " + hour + "时" + minutes + "分" + seconds + "秒";
 
   var timer = document.getElementsByClassName(name)[0];
   timer.innerHTML = str;
@@ -41,17 +39,27 @@ document.onkeydown=function(event){
 function dd(){
   
   var num1 = Math.round(Math.random()*11);
-  var num2 = Math.round(Math.random()*2);//获取0-1的随机数
-  var str1 = "pic" + num1;
+  var num2 = Math.round(Math.random()*7);//获取0-7的随机数
 
-  ChangeImg(str1, num2)
+  do{
+    var num3 = Math.round(Math.random()*11);
+    var num4 = Math.round(Math.random()*7);//获取0-7的随机数
+  }
+  while (num3==num1 || num4==num2);
+  
+
+  var str1 = "pic" + num1;
+  var str2 = "pic" + num3;
+
+  ChangeImg(str1, num2);
+  ChangeImg(str2, num4);
 
   for (var i=0;i<12;i++){
     if (i==num1) continue;
+    if (i==num3) continue;
     ChangeImg("pic" + i,picArray.length-1);
   }
 }
-//
 window.setInterval("dd()",3000);
 
 window.setInterval("fontsize()",3000);

@@ -126,3 +126,8 @@ li a:hover, .dropdown:hover{
 }
 
 /*-------------------------------------------------------------------------------*/
+.contact{
+  text-align: right;
+  font-size: 12px;
+  line-height: 2px;
+}
